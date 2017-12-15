@@ -1,0 +1,8 @@
+{
+  "name": "Dinh Hung",
+  "description": "",
+  "type": "craft-plugin",
+  "require" : {
+    "froala/wysiwyg-editor-php-sdk" : "^1.0.1"
+  }
+}

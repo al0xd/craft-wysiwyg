@@ -1,0 +1,11 @@
+dsdasdaddsadd{% import "_includes/forms" as forms %}
+
+      <div class="vzaddress-field vzaddress-name">
+        <label for="{{ id~'-name' }}">{{ 'Name'|t }}</label>
+        {{ forms.text({
+          id: id~'-name',
+          name: name~'[name]',
+          value: values.name,
+          placeholder: 'Name'|t
+        }) }}
+      </div>
